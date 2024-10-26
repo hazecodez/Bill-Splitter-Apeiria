@@ -5,7 +5,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" />
-        <Route path="/login" />
+        <Route path="/login"  />
       </Routes>
     </Router>
   )
