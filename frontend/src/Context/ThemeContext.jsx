@@ -15,7 +15,7 @@ export const ThemeProvider = ({ children }) => {
   };
 
   const theme = isDarkMode ? "dark" : "light";
-
+ 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [isDarkMode]);
